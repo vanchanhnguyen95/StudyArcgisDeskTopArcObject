@@ -21,7 +21,7 @@ namespace ArcMapAddin1
             ArcMap.Application.CurrentTool = null;
 
             // 7: Code đổi tên Map
-            IMxDocument mxdoc = ArcMap.Document as IMxDocument;
+            IMxDocument mxdoc = ArcMap.Document;// as IMxDocument;
             IMap map = mxdoc.FocusMap;
             map.Name = "My New Map 2";
 
