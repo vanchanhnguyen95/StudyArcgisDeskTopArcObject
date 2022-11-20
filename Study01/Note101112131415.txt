@@ -1,0 +1,18 @@
+
+#10: ArcObjects Help
+10: https://www.youtube.com/watch?v=RPDa_61Bhn0&t=196s
+
+#11: Objects trong ArcObjects
+11: https://www.youtube.com/watch?v=idZI6folgzk
+
+#12: Class là gì ?
+12: https://www.youtube.com/watch?v=qkpDZdvH_qI
+
+#13: Khái niệm Interface
+13: https://www.youtube.com/watch?v=KQcWNhJwQt8
+
+#14: ArcObjects Model Diagram
+14: https://www.youtube.com/watch?v=qLSqVVfQMrY
+
+#15: Sử dụng ArcObjects Help
+15: https://www.youtube.com/watch?v=V_TCi9L5mXE
