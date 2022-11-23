@@ -33,6 +33,13 @@ namespace ArcMapAddin1
         {
             Enabled = ArcMap.Application != null;
         }
+
+        public void GetMxDocument()
+        {
+            //IMxDocument doc = ArcMap.Application.Document;
+            IMxDocument mxdoc = ArcMap.Document as IMxDocument;
+
+        }
     }
 
 }
