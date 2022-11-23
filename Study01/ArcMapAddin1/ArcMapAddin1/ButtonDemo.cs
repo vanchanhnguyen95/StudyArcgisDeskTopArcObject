@@ -1,5 +1,6 @@
 ﻿using ESRI.ArcGIS.ArcMapUI;
 using ESRI.ArcGIS.Carto;
+using ESRI.ArcGIS.Framework;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -38,6 +39,17 @@ namespace ArcMapAddin1
         {
             //IMxDocument doc = ArcMap.Application.Document;
             IMxDocument mxdoc = ArcMap.Document as IMxDocument;
+
+        }
+
+        public void GetMap()
+        {
+            IDocument doc = ArcMap.Application.Document;
+
+            //cast to IMxDocument interface
+            IMxDocument mxdoc = doc as IMxDocument;
+
+            IMap map = mxdoc.FocusMap;
 
         }
     }
