@@ -1,0 +1,22 @@
+﻿<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>ArcMapAddin1</Name>
+  <AddInID>{eedcf91e-5c0e-4643-862f-bf5d6df6baec}</AddInID>
+  <Description>Type in a description for this Add-in.</Description>
+  <Version>1.0</Version>
+  <Image>Images\ArcMapAddin1.png</Image>
+  <Author>chanhnv</Author>
+  <Company></Company>
+  <Date>11/24/2022</Date>
+  <Targets>
+    <Target name="Desktop" version="10.8" />
+  </Targets>
+  <AddIn language="CLR" library="ArcMapAddin1.dll" namespace="ArcMapAddin1">
+    <ArcMap>
+      <DockableWindows>
+        <DockableWindow id="ArcMapAddin1_DockableWindow1" class="DockableWindow1+AddinImpl" caption="My Dockable Window" image="Images\DockableWindow1.png">
+          <InitialPlacement height="300" width="300" state="pinned" position="left" />
+        </DockableWindow>
+      </DockableWindows>
+    </ArcMap>
+  </AddIn>
+</ESRI.Configuration>
