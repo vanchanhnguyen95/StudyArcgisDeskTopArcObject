@@ -52,6 +52,32 @@ namespace ArcMapAddin1
             IMap map = mxdoc.FocusMap;
 
         }
+
+        public void GetMapFromMaps()
+        {
+            IDocument doc = ArcMap.Application.Document;
+
+            //cast to IMxDocument interface
+            IMxDocument mxdoc = doc as IMxDocument;
+
+            IMaps maps = mxdoc.Maps;
+            for (int i = 0; i < maps.Count;i++)
+            {
+                IMap map = maps.Item[i];
+                IActiveView activeView = map as IActiveView;
+
+                if(activeView.IsActive() == true)
+                {
+                    // do something with focus map (active data frame)
+                }
+                else
+                {
+                    // do something with other maps
+                } 
+            }    
+
+        }
+
     }
 
 }
