@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33027.164
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcMapAddin1", "ArcMapAddin1\ArcMapAddin1.csproj", "{EEDCF91E-5C0E-4643-862F-BF5D6DF6BAEC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Button", "Button\Button.csproj", "{A865CDCF-39A2-4D48-844A-21B0230F9563}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayersOfMap", "LayersOfMap\LayersOfMap.csproj", "{9A427929-1FCB-4551-9A13-F402BF387373}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcMapAddin1", "ArcMapAddin1\ArcMapAddin1.csproj", "{EEDCF91E-5C0E-4643-862F-BF5D6DF6BAEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EEDCF91E-5C0E-4643-862F-BF5D6DF6BAEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EEDCF91E-5C0E-4643-862F-BF5D6DF6BAEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EEDCF91E-5C0E-4643-862F-BF5D6DF6BAEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EEDCF91E-5C0E-4643-862F-BF5D6DF6BAEC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A865CDCF-39A2-4D48-844A-21B0230F9563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A865CDCF-39A2-4D48-844A-21B0230F9563}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A865CDCF-39A2-4D48-844A-21B0230F9563}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{9A427929-1FCB-4551-9A13-F402BF387373}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A427929-1FCB-4551-9A13-F402BF387373}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A427929-1FCB-4551-9A13-F402BF387373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEDCF91E-5C0E-4643-862F-BF5D6DF6BAEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEDCF91E-5C0E-4643-862F-BF5D6DF6BAEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEDCF91E-5C0E-4643-862F-BF5D6DF6BAEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEDCF91E-5C0E-4643-862F-BF5D6DF6BAEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
