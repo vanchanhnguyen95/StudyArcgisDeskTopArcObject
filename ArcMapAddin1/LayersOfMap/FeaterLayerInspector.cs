@@ -32,7 +32,7 @@ namespace LayersOfMap
                 // using ILayerFields
                 ILayerFields selectedLayerFields = selectedFL as ILayerFields;
                 data += "field count: " + selectedLayerFields.FieldCount + "\n";
-                data += "Third field Name: " + selectedLayerFields.Field[2] + "\n";
+                data += "Third field Name: " + selectedLayerFields.Field[2].Name + "\n";
 
                 // using IFeoFeatureLayer
                 IGeoFeatureLayer selectedGFL = selectedFL as IGeoFeatureLayer;
