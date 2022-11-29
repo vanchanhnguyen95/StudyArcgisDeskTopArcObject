@@ -6,7 +6,7 @@
   <Image>Images\LayersOfMap.png</Image>
   <Author>chanhnv</Author>
   <Company>chanhnv</Company>
-  <Date>11/24/2022</Date>
+  <Date>11/29/2022</Date>
   <Targets>
     <Target name="Desktop" version="10.8" />
   </Targets>
@@ -14,6 +14,7 @@
     <ArcMap>
       <Commands>
         <Button id="chanhnv_LayersOfMap_LayersOfMapBtn" class="LayersOfMapBtn" message="Description: Display layers inside map" caption="Show Layers" tip="Tooltip: Display layers inside map" category="chanhnv" image="Images\LayersOfMapBtn.png" />
+        <Button id="chanhnv_LayersOfMap_FeaterLayerInspector" class="FeaterLayerInspector" message="Descripttion: General Properties of FeatureLayers" caption="General Properties of FeatureLayers" tip="Tooltip: General Properties of FeatureLayers" category="chanhnv" image="Images\FeaterLayerInspector.png" />
       </Commands>
     </ArcMap>
   </AddIn>
