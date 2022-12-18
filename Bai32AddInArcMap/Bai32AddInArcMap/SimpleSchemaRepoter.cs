@@ -30,6 +30,20 @@ namespace Bai32AddInArcMap
                 //reportSchema(selectionTbl);
             }    
         }
+
+        void reportSchema(ITable table)
+        {
+            // build list ò fldClass instance
+            List<fldClass> fldClassList = new List<fldClass>();
+
+
+            IField2 fields = table.Fields as IField2;
+            for(int i = 0; i < fields.FieldCount; i++)  
+            {
+
+            }    
+        }
+
         protected override void OnUpdate()
         {
             Enabled = ArcMap.Application != null;
